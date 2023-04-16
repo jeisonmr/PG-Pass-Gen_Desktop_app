@@ -13,6 +13,7 @@ Frameworks
  <br>
  ![REACT](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
  ![MATERIAL-UI](https://img.shields.io/badge/-MaterialUI-000000?style=flat&logo=mui)
+ ![ELECTRON-UI](https://img.shields.io/badge/-Electron-000000?style=flat&logo=electron)
 <br>
 Lenguages
 <br>
