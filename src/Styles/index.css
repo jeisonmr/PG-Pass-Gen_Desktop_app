@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+img {
+  -webkit-user-drag: none; /* Safari */
+  -khtml-user-drag: none; /* Konqueror */
+  -moz-user-drag: none; /* Firefox */
+  -o-user-drag: none; /* Opera */
+  -user-drag: none;
+}
+
+.search {
+  pointer-events: none;
+}
+.search:focus {
+  outline: none;
+  user-select: none;
+  pointer-events: none;
+}
+@media only screen and (max-width: 576px) {
+  .configLength {
+    width: 90% !important;
+  }
+  .configSearch {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 834px) {
+  .configLength {
+    width: 98% !important;
+  }
+  .configSearch {
+    width: 100% !important;
+  }
+}

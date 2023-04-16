@@ -1,0 +1,44 @@
+/* Estilos del componente Footer. */
+.footerView {
+  width: 100%;
+  height: 10rem;
+  background: var(--cl-1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-1);
+  font-size: 10px;
+  padding-top: 70px;
+  color: var(--cl-3);
+}
+.gitIcon {
+  width: 40px;
+  margin-bottom: 20px;
+}
+.containerApp{
+  height: 100% !important;
+}
+@media only screen and (max-width: 576px) {
+  .footerView > p {
+    text-align: center;
+    line-height: 1rem;
+    margin-bottom: 30px;
+  }
+  .containerApp {
+    height: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 834px) {
+  .footerView > p {
+    width: 100% !important;
+    height: 100% !important;
+    text-align: center;
+    line-height: 1rem;
+    margin-bottom: 30px;
+  }
+  .containerApp {
+    height: 100% !important;
+  }
+}

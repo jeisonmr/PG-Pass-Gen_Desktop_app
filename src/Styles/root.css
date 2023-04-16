@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+      /* Paleta de colores */
+      --cl-1: #001629;
+      --cl-2: #003E61;
+      --cl-3: #FFFFFF;
+      --cl-4: #d9d9d91a;
+      --cl-5: #ffffff00;
+      --cl-6: linear-gradient(180deg, #003E61 0%, #0E153A 100%);
+
+      /* Fuentes */
+      --font-1:  'Press Start 2P', cursive;
+}
