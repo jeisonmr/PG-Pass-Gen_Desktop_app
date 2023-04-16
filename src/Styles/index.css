@@ -22,6 +22,11 @@ img {
   user-select: none;
   pointer-events: none;
 }
+.containerApp {
+  height: 100vh !important;
+  width: 100% !important;
+}
+
 @media only screen and (max-width: 576px) {
   .configLength {
     width: 90% !important;
@@ -29,12 +34,23 @@ img {
   .configSearch {
     width: 100% !important;
   }
+  .containerApp {
+    height: 100% !important;
+  }
 }
-@media only screen and (max-width: 834px) {
+@media only screen and (max-width: 768px) {
   .configLength {
     width: 98% !important;
   }
   .configSearch {
     width: 100% !important;
+  }
+  .containerApp {
+    height: 100% !important;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1919px){
+  .containerApp {
+    height: 100% !important;
   }
 }
